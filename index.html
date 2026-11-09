@@ -67,16 +67,6 @@
   th, td { text-align: left; padding: 11px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
   th { color: var(--muted); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: .04em; }
   tr:last-child td { border-bottom: 0; }
-  .lang-switch { display: flex; gap: 8px; margin-top: 22px; }
-  .lang-switch a {
-    padding: 7px 14px;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: #fff;
-    font-size: 14px;
-    font-weight: 600;
-  }
-  hr.sep { border: 0; border-top: 1px solid var(--line); margin: 56px 0 40px; }
   footer { color: var(--muted); font-size: 14px; text-align: center; margin-top: 40px; }
   @media (max-width: 560px) {
     main { padding: 36px 18px 72px; }
@@ -92,7 +82,6 @@
     <span class="badge">walletPass for iOS</span>
     <h1>Privacy Policy</h1>
     <p class="meta">Effective date: 10 November 2026 · Last updated: 10 November 2026</p>
-    <div class="lang-switch"><a href="#zh">中文版</a></div>
   </header>
 
   <section>
@@ -180,102 +169,6 @@
     <h2>Contact</h2>
     <p>Wuhan Qiance Network Technology Co., Ltd.<br>
     Email: <a href="mailto:huangyn2530@gmail.com">huangyn2530@gmail.com</a></p>
-  </section>
-
-  <hr class="sep" id="zh">
-
-  <header>
-    <span class="badge">walletPass iOS 版</span>
-    <h1>隐私政策</h1>
-    <p class="meta">生效日期：2026 年 11 月 10 日 · 最后更新：2026 年 11 月 10 日</p>
-    <div class="lang-switch"><a href="#top">English</a></div>
-  </header>
-
-  <section>
-    <h2>概述</h2>
-    <p>walletPass 是一款 iOS 应用，把条码、照片和 PDF 电子票做成可以加入 Apple 钱包的卡券。本应用由武汉黔策网络科技有限公司运营。</p>
-    <p>简单说：你扫描或填写的内容只留在你的设备上。我们没有账号系统，也不会上传你的卡券、照片、文件或条码。</p>
-  </section>
-
-  <section>
-    <h2>应用处理哪些信息</h2>
-    <table>
-      <tr><th>数据</th><th>去向</th><th>用途</th></tr>
-      <tr>
-        <td>你选择或拍摄的照片、PDF 文件与相机画面</td>
-        <td>仅本机</td>
-        <td>用 Apple Vision 在本机识别条码，不上传，处理完不保留副本。</td>
-      </tr>
-      <tr>
-        <td>你填写的卡券内容（标题、字段、日期、条码值、颜色）</td>
-        <td>仅本机</td>
-        <td>用于生成并签名卡券，以及下次打开应用时恢复卡券库。</td>
-      </tr>
-      <tr>
-        <td>你加入 Apple 钱包的卡券</td>
-        <td>由 Apple 钱包保存</td>
-        <td>按 Apple 的条款处理。walletPass 无法读取你钱包里的其他卡券。</td>
-      </tr>
-      <tr>
-        <td>购买与订阅信息</td>
-        <td>发送给 RevenueCat, Inc.</td>
-        <td>用于校验购买、恢复购买和解锁 Pro 功能。</td>
-      </tr>
-    </table>
-  </section>
-
-  <section>
-    <h2>订阅与 RevenueCat</h2>
-    <p>walletPass Pro 通过 Apple 应用内购买销售。我们使用 RevenueCat 管理订阅和权益。打开应用或购买时，RevenueCat 会收到：</p>
-    <ul>
-      <li>应用生成的匿名用户标识</li>
-      <li>本应用的购买记录（产品、价格、续订状态）</li>
-      <li>有限的设备与应用信息，如设备型号、系统版本、应用版本和国家/地区</li>
-      <li>请求所需的技术数据，可能包含 IP 地址</li>
-    </ul>
-    <p>RevenueCat 不会收到你的卡券内容、照片或文件。支付信息由 Apple 处理，我们看不到你的银行卡号。详见 <a href="https://www.revenuecat.com/privacy/" rel="noopener">RevenueCat 隐私政策</a>与 <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple 隐私政策</a>。</p>
-  </section>
-
-  <section>
-    <h2>我们不收集什么</h2>
-    <ul>
-      <li>不收集账号、姓名、邮箱或电话</li>
-      <li>不收集通讯录、日历、位置或健康数据</li>
-      <li>不收集广告标识符，也不接入第三方广告 SDK</li>
-      <li>不接入统计分析或崩溃上报 SDK</li>
-      <li>不把照片、PDF 或卡券内容上传到我们的服务器</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>保留与删除</h2>
-    <p>卡券和设置只保存在你的设备上，删除应用即删除。订阅记录由 Apple 与 RevenueCat 按其政策保留；你可以随时在 Apple ID 设置里管理或取消订阅。</p>
-  </section>
-
-  <section>
-    <h2>你的选择</h2>
-    <ul>
-      <li>随时在 iOS 设置 → walletPass 中关闭相机或照片权限。</li>
-      <li>在应用内删除单张卡券，或删除应用以清除全部本地数据。</li>
-      <li>在 iOS 设置 → Apple ID → 订阅 中管理或取消订阅。</li>
-      <li>联系我们，查询与你匿名用户标识关联的购买数据。</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>儿童</h2>
-    <p>walletPass 不面向 13 岁以下儿童，我们不会有意收集儿童的个人信息。</p>
-  </section>
-
-  <section>
-    <h2>政策变更</h2>
-    <p>如本政策发生变化，我们会更新上方的生效日期；涉及重大变更时，会在应用更新说明中写明。</p>
-  </section>
-
-  <section>
-    <h2>联系方式</h2>
-    <p>武汉黔策网络科技有限公司<br>
-    邮箱：<a href="mailto:huangyn2530@gmail.com">huangyn2530@gmail.com</a></p>
   </section>
 
   <footer>© 2026 Wuhan Qiance Network Technology Co., Ltd. · walletPass</footer>
